@@ -1,0 +1,55 @@
+.container-fluid {
+    .heading-color {
+        color: $headings-text-color;
+    }
+}
+
+.clear-all-tags {
+    color: rgb(214, 27, 27);
+    font-weight: normal;
+    vertical-align: unset;
+}
+
+.tag-close-btn {
+    color: rgb(214, 27, 27);
+    vertical-align: super;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.card.group-management-heading {
+    margin-bottom: 10px;
+}
+
+// Bellow classes are support for tailwind (https://tailwindcss.com/) for now
+// @todo Add tailwind
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+/* For Generate Facebook Tags modal */
+#membersNames {
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

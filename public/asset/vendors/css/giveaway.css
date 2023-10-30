@@ -1,0 +1,53 @@
+
+
+#shpinthewheel {
+    width: 100%;
+    height: auto;
+}
+
+#canvas_wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+#text_wrapper {
+    font-size: 19px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#input_wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#raffle_explain {
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+.wheel-wrapper {
+    float: left;
+    transform: rotate(90deg);
+    width: 420px;
+    height: 420px;
+    display: block;
+}
+.sWheel{
+    transform: rotate(306deg);
+}
+#raffle_sepparate_window{
+    cursor: pointer;
+    font-size: 18px;
+}
+#wheel_input_data{
+    resize: none;
+}

@@ -1,0 +1,141 @@
+.elHeadline b {
+    color: rgb(184, 5, 5);
+}
+
+#headline-42513 .elHeadline b {
+    color: rgb(0, 0, 0);
+}
+
+#headline-76227 .elHeadline b {
+    color: rgb(0, 0, 0);
+}
+
+#headline-58952 .elHeadline b {
+    color: rgb(184, 39, 12);
+}
+
+.borderSolid.border1px {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.top-title {
+    margin-top: 61px;
+}
+
+.congratulations-text {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    outline: none;
+    background-color: rgb(232, 255, 228);
+    border-color: rgb(163, 235, 122);
+}
+
+.congratulations-text-font {
+    text-align: center;
+    color: rgb(57, 57, 57);
+    font-size: 18px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.second-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    outline: none;
+    width: 80%;
+    max-width: 100%;
+}
+
+.progressbar_w_50 {
+    background-color: rgb(114, 199, 67);
+}
+
+#section-148010000 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: -15px;
+    border-color: rgb(224, 224, 224);
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.congrates-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    margin-top: -3px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.follow-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.step_one {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px auto 0px;
+    outline: none;
+    border-color: rgb(234, 212, 128);
+    width: 90%;
+    max-width: 100%;
+    background-color: rgb(255, 249, 204);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.step_title {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.step_one_details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -3px auto 0px;
+    outline: none;
+    width: 90%;
+    max-width: 100%;
+    border-color: rgb(234, 212, 128);
+    background-color: rgb(255, 253, 237);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.details-text {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    text-align: left;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.join-text {
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.details-font-size-30 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.details-font-size-20 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.fa_prepended {
+    color: rgb(0, 0, 238);
+}
+
+#section-148010000 a {
+    color: rgb(54, 108, 204);
+}

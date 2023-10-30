@@ -1,0 +1,474 @@
+  /** Page-specific styles */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  @keyframes void-animation-out {
+    0%,
+    to {
+      opacity: 1;
+    }
+  }
+
+  .stripes {
+    position: absolute;
+    width: 100%;
+    transform: skewY(-12deg);
+    height: 950px;
+    top: -350px;
+    background: linear-gradient(180deg, #e6ebf1 350px, rgba(230, 235, 241, 0));
+  }
+
+  .stripes .stripe {
+    position: absolute;
+    height: 190px;
+  }
+
+  .stripes .s1 {
+    height: 380px;
+    top: 0;
+    left: 0;
+    width: 24%;
+    background: linear-gradient(90deg, #e6ebf1, rgba(230, 235, 241, 0));
+  }
+
+  .stripes .s2 {
+    top: 380px;
+    left: 4%;
+    width: 35%;
+    background: linear-gradient(
+      90deg,
+      hsla(0, 0%, 100%, 0.65),
+      hsla(0, 0%, 100%, 0)
+    );
+  }
+
+  .stripes .s3 {
+    top: 380px;
+    right: 0;
+    width: 38%;
+    background: linear-gradient(90deg, #e4e9f0, rgba(228, 233, 240, 0));
+  }
+
+
+  .stripefrom >  .cell + .cell {
+    margin-top: 70px;
+  }
+
+  .stripefrom >  .cell.intro {
+    padding: 0;
+  }
+
+  @media (min-width: 670px) {
+    .stripefrom >  .cell.intro {
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .optionList {
+      margin-left: 13px;
+    }
+  }
+
+  .stripefrom >  .cell.intro > * {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .stripefrom >  .cell.intro .common-IntroText {
+    margin-top: 10px;
+  }
+
+  .stripefrom >  .cell.intro .common-BodyText {
+    margin-top: 15px;
+  }
+
+  .stripefrom >  .cell.intro .common-ButtonGroup {
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .stripefrom >  .example.submitted form,
+  .stripefrom >  .example.submitting form {
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+  }
+
+  .stripefrom >  .example.submitted .success,
+  .stripefrom >  .example.submitting .success {
+    pointer-events: all;
+  }
+
+  .stripefrom >  .example.submitting .success .icon {
+    opacity: 1;
+  }
+
+  .stripefrom >  .example.submitting .success > * {
+    opacity: 1;
+    transform: none !important;
+  }
+
+  .stripefrom >  .example.submitted .success > :nth-child(2) {
+    transition-delay: 0.1s;
+  }
+
+  .stripefrom >  .example.submitted .success > :nth-child(3) {
+    transition-delay: 0.2s;
+  }
+
+  .stripefrom >  .example.submitted .success > :nth-child(4) {
+    transition-delay: 0.3s;
+  }
+
+  .stripefrom >  .example.submitted .success .icon .border,
+  .stripefrom >  .example.submitted .success .icon .checkmark {
+    opacity: 1;
+    stroke-dashoffset: 0 !important;
+  }
+
+
+  .stripefrom >  .example .caption {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 15px 10px 0;
+    color: #aab7c4;
+    font-family: Roboto, "Open Sans", "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .stripefrom >  .example .caption * {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .stripefrom >  .example .caption .no-charge {
+    color: #cfd7df;
+    margin-right: 10px;
+  }
+
+  .stripefrom >  .example .caption a.source {
+    text-align: right;
+    color: inherit;
+    transition: color 0.1s ease-in-out;
+    margin-left: 10px;
+  }
+
+  .stripefrom >  .example .caption a.source:hover {
+    color: #6772e5;
+  }
+
+  .stripefrom >  .example .caption a.source:active {
+    color: #43458b;
+  }
+
+  .stripefrom >  .example .caption a.source  svg {
+    margin-right: 10px;
+  }
+
+  .stripefrom >  .example .caption a.source svg path {
+    fill: currentColor;
+  }
+
+  .stripefrom >  .example form {
+    position: relative;
+    width: 100%;
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .stripefrom >  .example form input::-webkit-input-placeholder {
+    opacity: 1;
+  }
+
+  .stripefrom >  .example form input::-moz-placeholder {
+    opacity: 1;
+  }
+
+  .stripefrom >  .example form input:-ms-input-placeholder {
+    opacity: 1;
+  }
+
+  .stripefrom >  .example .error {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    font-size: 13px !important;
+    opacity: 0;
+    transform: translateY(10px);
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .stripefrom >  .example .error.visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  .stripefrom >  .example .error .message {
+    font-size: inherit;
+  }
+
+  .stripefrom >  .example .error svg {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 1px;
+    margin-right: 5px;
+  }
+
+  .stripefrom >  .example .success {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  @media (min-width: 670px) {
+    .stripefrom >  .example .success {
+      padding: 40px;
+    }
+  }
+
+  .stripefrom >  .example .success > * {
+    transition-property: opacity, transform;
+    transition-duration: 0.35s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0;
+    transform: translateY(50px);
+    border: 0 !important;
+  }
+
+  .stripefrom >  .example .success .icon {
+    margin: 15px 0 30px;
+    transform: translateY(70px) scale(0.75);
+  }
+
+  .stripefrom >  .example .success .icon svg {
+    will-change: transform;
+  }
+
+  .stripefrom >  .example .success .icon .border {
+    stroke-dasharray: 251;
+    stroke-dashoffset: 62.75;
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: spin 1s linear infinite;
+  }
+
+  .stripefrom >  .example .success .icon .checkmark {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    transition: stroke-dashoffset 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0.35s;
+  }
+
+  .stripefrom >  .example .success .title {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .stripefrom >  .example .success .message {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 1.6em;
+  }
+
+  .stripefrom >  .example .success .message span {
+    font-size: inherit;
+  }
+
+  .stripefrom >  .example .success .reset:active {
+    transition-duration: 0.15s;
+    transition-delay: 0s;
+    opacity: 0.65;
+  }
+
+  .stripefrom >  .example .success .reset svg {
+    will-change: transform;
+  }
+
+
+  .optionList {
+    margin: 6px 0;
+  }
+
+  .optionList li {
+    display: inline-block;
+    margin-right: 13px;
+  }
+
+  .optionList a {
+    color: #aab7c4;
+    transition: color 0.1s ease-in-out;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .optionList a.selected {
+    color: #6772e5;
+    font-weight: 600;
+  }
+
+  .optionList a:hover {
+    color: #32325d;
+  }
+
+  .optionList a.selected:hover {
+    cursor: default;
+    color: #6772e5;
+  }
+.example.example1 button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #3769b3;
+  box-shadow: 0 6px 9px rgb(55, 105, 179), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #3769b3;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: #3769b3;
+}
+
+
+.example.example1 .error svg .base {
+  fill: #fff;
+}
+
+.example.example1 .error svg .glyph {
+  fill: red;
+}
+
+.example.example1 .error .message {
+  color: red;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.example.example1 .success .icon .border {
+  stroke: #87bbfd;
+}
+
+.example.example1 .success .icon .checkmark {
+  stroke:#3769B3
+}
+
+.example.example1 .success .title {
+  color: #3769B3;
+}
+
+.example.example1 .success .message {
+  color: #9cdbff;
+}
+
+.example.example1 .success .reset path {
+  fill: #fff;
+}
+.content-wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.canclebtn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0 -15px 0px 0px;
+}
+.canclebtn a{
+    width: 100%;
+    height: 40px;
+    display: block;
+    width: calc(100% - 30px);
+    height: 40px;
+    padding: 11px;
+}
+.imgtag{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0px;
+  float: left;
+  position: relative;
+  left: 5px;
+}
+.form-check-label{
+  position: relative;
+  left: 10px;
+  padding: 0 11px 0 0 !important;
+}
+.bumpHeadline{
+  font-size: 18px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    color: green;
+    word-break: break-word;
+}
+.orderFormBump{
+  border:3px dashed rgb(61, 108, 179);
+  padding: 10px;
+  background-color: rgb(243, 249, 255);
+}
+.font-18{
+  font-size: 22px;
+}
+.title_plan{
+  padding: 0px 45px 0 45px;
+  margin: 0;
+  font-size: 20px;
+}
+.mdi-check-circle-outline,.remove.mdi-close-circle-outline{
+  font-size: 24px;
+}
+.back_link{
+  text-decoration: unset;
+  color: #3769b3 !important;
+}
+.pricing-table .pricing-card .pricing-card-body .plan-features li{
+  font-size: 19px;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #3769b3;
+  border-color: #3769b3;
+}
+.input-group input:focus {
+  border-color: #f3f3f3;
+}

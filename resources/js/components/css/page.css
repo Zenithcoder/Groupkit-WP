@@ -1,0 +1,456 @@
+.action i{
+    font-size: 20px;
+    color: #3769b3;
+    margin: 0;
+    padding: 0;
+}
+.load_video{
+    height: 285px;
+    width: 100%;
+    border: 0;
+}
+.font-18{
+    font-size: 18px;
+}
+.img-lg {
+    width: 100%;
+    height: 350px;
+}
+.edit{
+    font-size: 22px;
+}
+.filter_select{
+    display: -webkit-inline-box;
+}
+.filter_btn{
+    height: 38px;
+    width: 130px;
+}
+.column_btn{
+    height: 38px;
+    width: 135px;
+}
+.column_btn:focus{
+    color: #fff !important;
+    background-color: #227dc7 !important;
+    border-color: #2176bd !important;
+}
+.select_column{
+    color: #3e4044 !important;
+    background-color: #ffffff !important;
+    border-color: #bec2c4 !important;
+}
+.column_hide_btn:focus{
+    color: #212529;
+    background-color: #bec2c4;
+    border-color: #b8bcbd;
+    box-shadow: 0 0 0 3px rgb(255 255 255);
+}
+.column_hide_btn{
+    width: 130px;
+    margin: 0;
+    color: #212529;
+    background-color: #bec2c4;
+    border-color: #b8bcbd;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.top-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.img-responsive{
+    width:100%;
+    height: 100%;
+}
+.details_tables .react-bs-table-search-form input{
+    position: absolute;
+    right: -14px;
+    top: -85px;
+    width: 240px;
+    height: 42px;
+    display:none;
+}
+.custome_width{
+    width: 520px;
+}
+.custome_width .form-group{
+    margin-bottom: 0;
+}
+.custome_width .notes{
+    margin-bottom: 1rem;
+}
+.top_margin{
+    margin-top: 10px;
+}
+.modal_z_index{
+    z-index: 100000;
+}
+/** Add custome css*/
+@media (min-width: 1200px){
+    .container,.content-wrapper{
+        max-width: 1260px;
+    }
+    .load_video {
+        height: 320px;
+    }
+}
+.brand-logo-mini img{
+    max-width: unset !important;
+    width:unset !important;
+}
+.groupDetails h6{
+    font-size: 22px;
+}
+
+.remove_group.btn-primary, .wizard > .actions a {
+    color: #fff;
+    background-color: #ff0000cc;
+    border-color: #ff0000cc;
+}
+.remove_group.btn-primary:not(:disabled):not(.disabled):active,
+    .wizard > .actions a:not(:disabled):not(.disabled):active,
+    .remove_group.btn-primary:not(:disabled):not(.disabled).active,
+    .wizard > .actions a:not(:disabled):not(.disabled).active,
+    .show > .btn-primary.dropdown-toggle,
+    .wizard > .actions .show > a.dropdown-toggle {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.btn-primary, .wizard > .actions a, .btn-primary:hover, .wizard > .actions a:hover {
+    box-shadow: 0 2px 2px 0 rgba(104, 142, 200, 0.48), 0 3px 1px -2px rgba(104, 142, 200, 0.55), 0 1px 5px 0 rgba(55, 105, 179, 0.55);
+}
+
+.remove_group{
+    background-color: red;
+    border-color: #ff0000;
+}
+.fa-plus-square-o,.fa-exclamation-triangle,.react-tagsinput-remove{
+    color: white !important;
+}
+.react-datepicker-wrapper{
+    display: block;
+}
+.react-tagsinput--focused {
+    border-color: #80bdff;
+}
+.react-tagsinput-tag {
+    background-color: #3769b3;
+    border-radius: 2px;
+    border: 1px solid #3769b3;
+    color: #ffffff;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.fname{
+    margin: 7px 0px 0px 0px !important
+}
+a{
+    color: #3a69b2;
+    text-decoration: unset;
+}
+#autoresponder_from button{
+    width: 100%;
+}
+.removeAutoresponder a{
+    color: red !important;
+}
+.removeicon{
+    color: red !important;
+}
+.auto_title{
+    padding-left: 18%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.memberActionPin{
+    margin: 6px 0px 0 0;
+    padding: 0px;
+    text-align: left;
+}
+.col-8.text-left.p-0.member-name {
+    padding-left: 16px !important;
+}
+.memberActionPin {
+    white-space: nowrap;
+}
+.bootstrap-table table thead tr th[data-field=name] {
+    min-width: 180px;
+}
+.sectionLoader{
+    border: 0;
+    border: 0 !important;
+    position: absolute;
+    overflow: hidden;
+    top: 40%;
+}
+.bar-loader span {
+    margin-left: 5px;
+}
+.backGroundDiv{
+    height: 428px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    padding: 0;
+    display: inline-flex;
+    background-position: center;
+}
+.margin-lf{
+    margin-left: 30px;;
+}
+.watchTitle{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+.dropdown-menu{
+    min-width: auto;
+    text-align: center;
+}
+.dropdown .dropdown-menu .dropdown-item {
+    font-size: 1rem !important;
+    padding: 10px 10px 10px 13px !important;
+}
+
+.loader_spinner{
+    color: white;
+    float: right;
+}
+.default_Tag{
+    padding: 6px;
+    margin: 0;
+    font-size: 15px  !important;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0px !important;
+}
+.selectpiker_group{
+    width: 180px;
+    margin-right: 10px;
+}
+.filter.text-filter.form-control{
+    display: none;
+}
+.td-body_group,.td-header_group{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.action.icons p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.fa.fa-cloud-upload{
+    color: white;
+}
+.modal .modal-dialog .modal-content .modal-body {
+    padding: 0px;
+}
+.modal .modal-dialog .modal-content{
+    padding: 10px;
+}
+.modal .modal-dialog .modal-content .modal-header {
+    padding: 15px 8px;
+}
+body, html {
+    overflow-x: unset;
+    padding-right: 0;
+}
+.footer-center{
+    text-align: center !important;
+    display: block;
+}
+.groupkit_logo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.groupkit_logo img{
+    max-width: 330px!important;
+    width: 100%;
+}
+.groupkit_text{
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+.groupkit_text img{
+    display: inline-block!important;
+    width: 32px;
+    height: auto;
+}
+#egxisting_members_scrape_title_after{
+    text-align: center;
+    font-size: 50px;
+}
+.stopButton{
+    all: unset;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #00000033;
+    color: #ffffff;
+    background-color: #e43b2c;
+    font-size: 20px;
+    cursor: pointer;
+}
+#all_button_stop_done{
+    all: unset;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #00000033;
+    color: #ffffff;
+    background-color: #12c559;
+    font-size: 20px;
+    cursor: pointer;
+}
+a.dropdown-item{
+    text-decoration: unset !important;
+    color: #212529 !important;
+}
+#profileDropdown{
+    color: #9b9b9b !important;
+}
+.react-bs-container-body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.react-bs-container-body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #3a69b2;
+    -webkit-box-shadow: inset 0 0 6px #3a69b2;
+}
+
+.intigration-autoresponder{
+   margin-top: -15px;
+}
+
+@media only screen and (min-width: 990px) {
+    .import_btn,.select_group_picker{
+        padding-left: 0px !important;
+    }
+    .member_filter,.filter_input{
+        padding-left: 0px !important;
+    }
+}
+.import_btn button{
+    border-radius: unset;
+    width: 100%;
+    height: 38px;
+}
+.import_btn span{
+    display: block !important;
+    margin: 10px 0px 10px 0;
+}
+.existing_btn button,.select_group_picker{
+    margin: 10px 0px 10px 0;
+}
+.group_title{
+    margin: 20px 0px 0px 0;
+}
+/* member mange page */
+@media only screen and (max-width: 990px) {
+    .details_screen{
+        margin-top: 0px !important;
+    }
+}
+.member_filter button{
+    border-radius: unset;
+    width: 100%;
+    height: 38px;
+}
+.filter_input input{
+    width: 100%;
+    height: 38px;
+}
+.member_filter,.filter_input{
+    margin: 10px 0px 10px 0;
+}
+.details_screen{
+    padding-top: 10px;
+}
+/**/
+.label_text{
+    font-size: 30px;
+    color: gray;
+}
+.extension-btn{
+    color: white !important;
+    text-decoration: none !important;
+    padding: 15px;
+    font-size: 15px !important;
+    margin-top: 10px;
+}
+.chrome-web-store{
+    width: 100%;
+}
+@media (min-width: 992px){
+    .extensionModal{
+        max-width: 50%;
+    }
+    .chrome-web-store{
+        width: auto;
+    }
+}
+.popover{
+    z-index: 100000 !important;
+}
+.accordion .card .card-header a:before{
+    right: 0px;
+}
+.integration-message-text{
+    position: absolute;
+    top: 60%;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+.dropdown.react-bs-table-sizePerPage-dropdown ul.dropdown-menu{
+    width: 100%;
+}
+
+.card .card-body.select-all-in-group-row {
+    padding-bottom: 0;
+}
+
+.card .card-body.select-all-in-group-row a {
+    color: #3769b3;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.btn.add-recommended-tag {
+    margin: -6px;
+}
